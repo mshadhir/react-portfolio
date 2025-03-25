@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Programming Foundations: Object-Oriented Design",
+    "issuer": "LinkedIn Learning",
+    "year": "Feb 2024",
+    "imageSrc": "certifications/linkedin.png"
+  },
+  {
+    "title": "Four Simple Strategies to Boost Creativity and Productivity",
+    "issuer": "LinkedIn Learning",
+    "year": "Jan 2024",
+    "imageSrc": "certifications/linkedin.png"
+  },
+  {
+    "title": "How to Learn Faster",
+    "issuer": "LinkedIn Learning",
+    "year": "Jan 2024",
+    "imageSrc": "certifications/linkedin.png"
+  },
+  {
+    "title": "Python for Beginners",
+    "issuer": "University of Moratuwa",
+    "year": "May 2022",
+    "imageSrc": "certifications/moratuwa.png"
+  },
+  {
+    "title": "Java Advanced Certification Course",
+    "issuer": "Programming Hub",
+    "year": "Apr 2020",
+    "imageSrc": "certifications/programminghub.png"
+  },
+  {
+    "title": "Java Certification Course",
+    "issuer": "Programming Hub",
+    "year": "Apr 2020",
+    "imageSrc": "certifications/programminghub.png"
+  },
+  {
+    "title": "Certificate in Graphic Designing and Animation",
+    "issuer": "Zonal ICT Education Center",
+    "year": "Jun 2016",
+    "imageSrc": "certifications/zonalict.png"
+  }
+]

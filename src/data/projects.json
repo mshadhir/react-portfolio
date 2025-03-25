@@ -1,11 +1,11 @@
 [
   {
-    "title": "Project A",
+    "title": "Portfolio Website",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "A personal portfolio site built with Vue.js featuring smooth UI and responsive design.",
+    "skills": ["Vue.js", "HTML", "CSS", "Git"],
+    "demo": "https://mshadhir.github.io/portfolio-website",
+    "source": "https://github.com/mshadhir/portfolio-website"
   },
   {
     "title": "Project B",

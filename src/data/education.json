@@ -1,0 +1,14 @@
+[
+  {
+    "degree": "Bachelor of Information Technology",
+    "institution": "Swinburne University of Technology",
+    "duration": "2022 – 2024",
+    "imageSrc": "education/swinburne.png"
+  },
+  {
+    "degree": "Higher Diploma in IT",
+    "institution": "SLIIT, Sri Lanka",
+    "duration": "2018 – 2021",
+    "imageSrc": "education/sliit.png"
+  }
+]

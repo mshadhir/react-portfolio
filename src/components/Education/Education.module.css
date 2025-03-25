@@ -1,0 +1,151 @@
+@import "../../vars.css";
+
+.container {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: var(--color-text);
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.subTitle {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: var(--font-roboto);
+    text-align: left;
+}
+
+/* ✅ Education Section Style (like About.jsx) */
+.educationSection {
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 60px;
+}
+
+.eduGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.eduItem {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 235, 0.42) 0%, rgba(255, 255, 255, 0)100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.4s ease;
+}
+
+.eduItem:hover {
+    background-size: 100% 100%;
+}
+
+.eduItem img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.details h4 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+}
+
+.details p {
+    font-size: 18px;
+    margin: 4px 0;
+    font-weight: 300;
+    font-family: var(--font-roboto);
+}
+
+/* ✅ Certifications */
+.certificationWrapper {
+    margin-top: 30px;
+}
+
+.certGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.certItem {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 100, 0) 100%);
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.certItem img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* ✅ Responsive */
+@media screen and (max-width: 1000px) {
+    .certGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .eduGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .educationSection {
+        background-color: transparent;
+        padding: 20px;
+    }
+
+    .eduItem {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .eduItem img {
+        margin-bottom: 10px;
+    }
+
+    .details h4 {
+        font-size: 20px;
+    }
+
+    .details p {
+        font-size: 16px;
+    }
+
+    .certGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .certItem {
+        flex-direction: column;
+        text-align: center;
+    }
+}
