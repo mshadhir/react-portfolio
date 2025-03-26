@@ -8,3 +8,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background: rgb(25, 55, 109);
+}
