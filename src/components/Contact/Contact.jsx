@@ -1,6 +1,6 @@
 import React from 'react'
 import { getImageUrl } from '../../utills'
-import styles from "./contact.module.css";
+import styles from "./Contact.module.css";
 
 export const Contact = () => {
   return (
