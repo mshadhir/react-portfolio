@@ -1,26 +1,26 @@
 [
   {
-    "title": "Portfolio Website",
+  "title": "Personal Portfolio Website",
+  "imageSrc": "projects/portfolio.png",
+  "description": "A fully responsive React‑based portfolio website showcasing my projects, skills, and contact form. Features include smooth scrolling navigation, dark/light mode toggle, animated project cards, and deployment on Netlify.",
+  "skills": ["React", "JavaScript", "CSS", "Git"],
+  "demo": "https://shadhir-dev.netlify.app/",
+  "source": "https://github.com/mshadhir/react-portfolio"
+},
+  {
+    "title": "My Friend System",
     "imageSrc": "projects/project.png",
-    "description": "A personal portfolio site built with Vue.js featuring smooth UI and responsive design.",
-    "skills": ["Vue.js", "HTML", "CSS", "Git"],
-    "demo": "https://mshadhir.github.io/portfolio-website",
-    "source": "https://github.com/mshadhir/portfolio-website"
+    "description": "Developed a user-friendly web-based social networking app, with user registration, login, friend management, and database integration. I also added advanced features like pagination and mutual friend counts.",
+    "skills": ["HTML", "CSS", "JS", "PHP", "MySQL"],
+    "demo": "#",
+    "source": "#"
   },
   {
-    "title": "Project B",
+    "title": "Event Planning System",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Online Event Planning System is web application which lets users to manage their events (CRUD Operations).",
+    "skills": ["JAVA", "HTML", "CSS", "JS", "MySQL"],
+    "demo": "#",
+    "source": "#"
   }
 ]
