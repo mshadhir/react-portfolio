@@ -1,7 +1,7 @@
 [
   {
   "title": "Personal Portfolio Website",
-  "imageSrc": "projects/portfolio.png",
+  "imageSrc": "projects/project.png",
   "description": "A fully responsive React‑based portfolio website showcasing my projects, skills, and contact form. Features include smooth scrolling navigation, dark/light mode toggle, animated project cards, and deployment on Netlify.",
   "skills": ["React", "JavaScript", "CSS", "Git"],
   "demo": "https://shadhir-dev.netlify.app/",
